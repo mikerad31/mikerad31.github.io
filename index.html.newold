@@ -33,12 +33,6 @@
         text-decoration:none
     }
 
-    img
-    {
-        max-width: 100% !important;
-        max-height: 100% !important;
-    }
-
     .prevent-auto-links a {
         color: inherit !important;
         text-decoration:none !important
@@ -101,7 +95,7 @@
         }
 
         .text-block-headline {
-            /*width: 300px !important;*/
+            width: 300px !important;
             padding:7px 0 0 0 !important
         }
 
@@ -139,14 +133,13 @@
             padding-bottom:7px !important
         }
 
-        /*.text-block-preamble {
+        .text-block-preamble {
             width:300px !important
-        }*/
+        }
 
         .text-block-preamble-side-spacer {
             width:auto !important
         }
-
 
         .department-title {
             font-size: 24px !important;
@@ -190,7 +183,7 @@
         }
 
         .footer-table {
-            width:100% !important
+            width:375px !important
         }
 
         .footer-social-media-spacer {
@@ -273,9 +266,9 @@
             padding:0 12px !important
         }
 
-       /* .header-menu-container {
+        .header-menu-container {
             width:375px !important
-        }*/
+        }
 
         .header-show-desktop-only {
             display:none !important
@@ -326,7 +319,6 @@
             padding-top:25px !important
         }
 
-
         .tutorial-item-pull-left {
             text-align:left !important
         }
@@ -352,20 +344,9 @@
         }
 
         .email-layout {
-            width: 100% !important;
-            /*min-width: 375px !important*/
+            width: 375px !important;
+            min-width: 375px !important
         }
-		.padding_class
-		{
-			padding:0 10px 0 10px !important;
-			box-sizing:border-box;	
-		}
-		.service-messages
-		{
-			padding: 20px 10px 0 10px !important;
-			box-sizing:border-box;	
-				
-		}
     }
 
     @media (min-width: 0) {
@@ -423,11 +404,11 @@
         <![endif]-->
 </head>
 <body class="email-background" style="background:#fff;background-color:#faf9f8;border:0;color:#000;line-height:1;margin:0;outline:0;padding:0">
-<table bgcolor="#faf9f8" border="0" cellpadding="0" cellspacing="0" class="email-background" style="border:0;border-collapse:separate;border-spacing:0;margin:auto;outline:0;padding:0">
+<table bgcolor="#faf9f8" border="0" cellpadding="0" cellspacing="0" class="email-background" style="border:0;border-collapse:separate;border-spacing:0;margin:0;outline:0;padding:0" width="100%">
 	<tbody>
 		<tr style="border:0;margin:0;outline:0;padding:0">
 			<td align="center" style="border:0;margin:0;outline:0;padding:0" width="100%">
-			<table align="center" border="0" cellpadding="0" cellspacing="0" class="email-layout" style="border:0;border-collapse:separate;border-spacing:0;margin:0;outline:0;padding:0">
+			<table align="center" border="0" cellpadding="0" cellspacing="0" class="email-layout" style="border:0;border-collapse:separate;border-spacing:0;margin:0;min-width:700px;outline:0;padding:0" width="700">
 				<tbody>
 					<tr style="border:0;margin:0;outline:0;padding:0">
 						<td style="border:0;margin:0;outline:0;padding:0">
@@ -437,7 +418,7 @@
 						</td>
 					</tr>
 					<tr style="border:0;margin:0;outline:0;padding:0">
-						<td align="center" class="email-layout" style="border:0;margin:0;outline:0;padding:0"><span class="is-hidden" style="border:0;display:none;line-height:0px;margin:0;max-height:0;mso-hide:all;outline:0;overflow:hidden;padding:0"><img alt="" height="0" src="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,1" width="0" /> </span>
+						<td align="center" class="email-layout" style="border:0;margin:0;min-width:700px;outline:0;padding:0" width="700"><span class="is-hidden" style="border:0;display:none;line-height:0px;margin:0;max-height:0;mso-hide:all;outline:0;overflow:hidden;padding:0"><img alt="" height="0" src="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,1" width="0" /> </span>
 						<div class="headerContainer container parbase">
 						<table border="0" cellpadding="0" cellspacing="0" style="border:0;border-collapse:separate;border-spacing:0;margin:0;outline:0;padding:0" width="100%">
 							<tbody>
@@ -446,7 +427,7 @@
 									<table border="0" cellpadding="0" cellspacing="0" style="border:0;border-collapse:separate;border-spacing:0;margin:0;outline:0;padding:0" width="100%">
 										<tbody>
 											<tr style="border:0;margin:0;outline:0;padding:0">
-												<td align="center" class="header-logo" style="border:0;font-size:0;line-height:0px;margin:0;outline:0;padding:24px 0 0"><a _label="HM LOGO" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea960cc3&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0" x-cq-linkchecker="skip"><img alt="H&M" src="https://domodo.co/sendy/uploads/1717965366.png" style="border: medium; margin: 0px; max-width: 700px; outline: 0px; padding: 0px; width: 222.975555px; height: auto;" /> <!--[if !mso]>
+												<td align="center" class="header-logo" style="border:0;font-size:0;line-height:0px;margin:0;outline:0;padding:24px 0 0"><a _label="HM LOGO" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea960cc3&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0" x-cq-linkchecker="skip"><img alt="H&M" class="is-hidden-mobile" src="https://domodo.co/sendy/uploads/1717965366.png" style="border: medium; margin: 0px; max-width: 700px; outline: 0px; padding: 0px; width: 222.975555px; height: 40.991848px;" /> <!--[if !mso]>
                                                             <img class="is-hidden-desktop" src="https://s1-cdn.hm.com/global/assets/1.0.161/images/logo/header-hm-logo-light-red.png" alt="H&M" width="41" height="27" style="border:none;display:none;margin:0;max-height:0;max-width:700px;mso-hide:all;outline:0;overflow:hidden;padding:0"/>
                                                             <!--<![endif]--> </a></td>
 											</tr>
@@ -456,11 +437,11 @@
 													<tbody>
 														<tr style="border:0;margin:0;outline:0;padding:0"><!--[if !mso]>
                                                                 <th class="header-text-size-large header-show-mobile-only" style="border:0;display:none;line-height:20px;margin:0;outline:0;padding:0 16px">
-                                                                    <a class="header-menu-link text-regular" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea960cc4&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" x-cq-linkchecker="skip" style="border:0;color:#222;font-family:HMSans,Arial,sans-serif;font-size:13px;font-weight:400;margin:0;outline:0;padding:0;text-decoration:none;white-space:nowrap">‌  ﻿Shop now</a>
+                                                                    <a class="header-menu-link text-regular" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea960cc4&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" x-cq-linkchecker="skip" style="border:0;color:#222;font-family:HMSans,Arial,sans-serif;font-size:13px;font-weight:400;margin:0;outline:0;padding:0;text-decoration:none;white-space:nowrap">‌  ﻿Shop now</a>
                                                                 </th>
                                                                 <!--<![endif]--><!--[if !mso]>
                                                                 <th class="header-text-size-large header-show-mobile-only" style="border:0;display:none;line-height:20px;margin:0;outline:0;padding:0 16px">
-                                                                    <a class="header-menu-link text-regular" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea960cc5&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" x-cq-linkchecker="skip" style="border:0;color:#222;font-family:HMSans,Arial,sans-serif;font-size:13px;font-weight:400;margin:0;outline:0;padding:0;text-decoration:none;white-space:nowrap">‌  ﻿New arrivals</a>
+                                                                    <a class="header-menu-link text-regular" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea960cc5&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" x-cq-linkchecker="skip" style="border:0;color:#222;font-family:HMSans,Arial,sans-serif;font-size:13px;font-weight:400;margin:0;outline:0;padding:0;text-decoration:none;white-space:nowrap">‌  ﻿New arrivals</a>
                                                                 </th>
                                                                 <!--<![endif]-->
 															<th class="header-text-size-large header-show-desktop-only" style="border:0;line-height:20px;margin:0;outline:0;padding:0 16px"><a class="header-menu-link text-regular" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea960cc6&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;color:#222;font-family:HMSans,Arial,sans-serif;font-size:13px;font-weight:400;margin:0;outline:0;padding:0;text-decoration:none;white-space:nowrap" x-cq-linkchecker="skip">‌  ﻿Shop now</a></th>
@@ -492,7 +473,7 @@
 						</div>
 
 						<div class="topStoryContainer container parbase">
-						<table border="0" cellpadding="0" cellspacing="0" class="padding_class" style="border:0;border-collapse:separate;border-spacing:0;margin:0;outline:0;padding:0" width="100%">
+						<table border="0" cellpadding="0" cellspacing="0" style="border:0;border-collapse:separate;border-spacing:0;margin:0;outline:0;padding:0" width="100%">
 							<tbody>
 								<tr style="border:0;margin:0;outline:0;padding:0">
 									<td class="product-recommendation-border-top spacer" style="border:0;border-top:1px solid #f3f3f3;font-size:0;line-height:1px;margin:0;outline:0;padding:0"> </td>
@@ -503,7 +484,7 @@
 										<tbody>
 											<tr>
 												<td>
-												<div style="border:0;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea9635ee&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="" class="image-with-height" src="https://domodo.co/sendy/uploads/1717977204.png" style="border: medium; margin: 0px; max-width: 700px; outline: 0px; padding: 0px; height: auto;" /> </a></div>
+												<div class="is-hidden-mobile" style="border:0;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea9635ee&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="" class="image-with-height" src="https://domodo.co/sendy/uploads/1717977204.png" style="border: medium; margin: 0px; max-width: 700px; outline: 0px; padding: 0px; width: 540px; height: 960px;" /> </a></div>
 												<!--[if !mso]>
                                                         <div class="is-hidden-desktop" style="border:0;display:none;margin:0;max-height:0;mso-hide:all;outline:0;overflow:hidden;padding:0">
                                                             <a href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea9635ef&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" _label="MOBILE IMAGE" style="border:0;font-weight:400;margin:0;outline:0;padding:0">
@@ -563,7 +544,7 @@
                                                             <table style="border:0;border-collapse:separate;border-spacing:0;margin:0;outline:0;padding:0" border="0" cellpadding="0" cellspacing="0" width="100%">
                                                                 <tr style="border:0;margin:0;outline:0;padding:0">
                                                                     <td class="cta-link-mobile-border" width="50%" style="border:1px solid #222222;border-color:#222222;margin:0;min-width:100px;outline:0;padding:12px 0" align="center">
-                                                                        <a href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea9635f6&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" class="cta-link-mobile text-bold" x-cq-linkchecker="skip" style="-webkit-font-smoothing:antialiased;border:0;color:#222222;display:inline-block;font-family:HMSans,Arial,sans-serif;font-size:16px;font-weight:700;line-height:20px;margin:0;outline:0;padding:0;text-align:center;text-decoration:none;width:100%">Join for free</a>
+                                                                        <a href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea9635f6&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" class="cta-link-mobile text-bold" x-cq-linkchecker="skip" style="-webkit-font-smoothing:antialiased;border:0;color:#222222;display:inline-block;font-family:HMSans,Arial,sans-serif;font-size:16px;font-weight:700;line-height:20px;margin:0;outline:0;padding:0;text-align:center;text-decoration:none;width:100%">Join for free</a>
                                                                     </td>
                                                                     <td width="12" class="cta-link-separator spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0;width:4px">
                                                                         <img src="https://s1-cdn.hm.com/global/assets/1.0.161/images/spacer.gif" alt width="12" style="border:0;margin:0;max-width:700px;outline:0;padding:0"/>
@@ -573,7 +554,7 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr style="border:0;margin:0;outline:0;padding:0">
-                                                                    <td height="12" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"> </td>
+                                                                    <td height="12" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"> </td>
                                                                 </tr>
                                                                 <tr style="border:0;margin:0;outline:0;padding:0">
                                                                     <td class="cta-link-mobile-border" width="50%" style="border:1px solid #222222;border-color:#222222;margin:0;min-width:100px;outline:0;padding:12px 0" align="center">
@@ -587,7 +568,7 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr style="border:0;margin:0;outline:0;padding:0">
-                                                                    <td height="12" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"> </td>
+                                                                    <td height="12" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"> </td>
                                                                 </tr>
                                                                 <tr style="border:0;margin:0;outline:0;padding:0">
                                                                     <td class="cta-link-mobile-border" width="50%" style="border:1px solid #222222;border-color:#222222;margin:0;min-width:100px;outline:0;padding:12px 0" align="center">
@@ -597,7 +578,7 @@
                                                                         <img src="https://s1-cdn.hm.com/global/assets/1.0.161/images/spacer.gif" alt width="12" style="border:0;margin:0;max-width:700px;outline:0;padding:0"/>
                                                                     </td>
                                                                     <td class="cta-link-mobile-border" width="50%" style="border:1px solid #222222;border-color:#222222;margin:0;min-width:100px;outline:0;padding:12px 0" align="center">
-                                                                        <a href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea9635fb&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" class="cta-link-mobile text-bold" x-cq-linkchecker="skip" style="-webkit-font-smoothing:antialiased;border:0;color:#222222;display:inline-block;font-family:HMSans,Arial,sans-serif;font-size:16px;font-weight:700;line-height:20px;margin:0;outline:0;padding:0;text-align:center;text-decoration:none;width:100%">H&M HOME</a>
+                                                                        <a href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea9635fb&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" class="cta-link-mobile text-bold" x-cq-linkchecker="skip" style="-webkit-font-smoothing:antialiased;border:0;color:#222222;display:inline-block;font-family:HMSans,Arial,sans-serif;font-size:16px;font-weight:700;line-height:20px;margin:0;outline:0;padding:0;text-align:center;text-decoration:none;width:100%">H&M HOME</a>
                                                                     </td>
                                                                 </tr>
                                                             </table>
@@ -624,7 +605,7 @@
 										<tbody>
 											<tr style="border:0;margin:0;outline:0;padding:0">
 												<td class="two-column-big-image-left two-column-spacer" style="border:0;font-size:0;line-height:0;margin:0;outline:0;padding:0" width="350px">
-												<div style="border:0;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea9635fc&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="" class="image " src="https://domodo.co/sendy/uploads/1717961716.png" style="border: medium; margin: 0px; max-width: 700px; outline: 0px; padding: 0px; height: auto;" /> </a></div>
+												<div class="is-hidden-mobile" style="border:0;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea9635fc&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="" class="image " src="https://domodo.co/sendy/uploads/1717961716.png" style="border: medium; margin: 0px; max-width: 700px; outline: 0px; padding: 0px; width: 350px; height: 525px;" /> </a></div>
 												<!--[if !mso]>
                                                         <div class="is-hidden-desktop" style="border:0;display:none;margin:0;max-height:0;mso-hide:all;outline:0;overflow:hidden;padding:0">
                                                             <a href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea9635fd&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" _label="MOBILE IMAGE" style="border:0;font-weight:400;margin:0;outline:0;padding:0">
@@ -637,7 +618,7 @@
 													<tbody>
 														<tr style="border:0;margin:0;outline:0;padding:0">
 															<td class="two-column-spacer" style="border:0;font-size:0;line-height:0;margin:0;outline:0;padding:0">
-															<div style="border:0;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea9635fe&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="" class="image" src="https://domodo.co/sendy/uploads/1717962282.png" style="border: medium; margin: 0px; max-width: 700px; outline: 0px; padding: 0px; height: auto;" /> </a></div>
+															<div class="is-hidden-mobile" style="border:0;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea9635fe&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="" class="image" src="https://domodo.co/sendy/uploads/1717962282.png" style="border: medium; margin: 0px; max-width: 700px; outline: 0px; padding: 0px; width: 201px; height: 310px;" /> </a></div>
 															<!--[if !mso]>
                                                                     <div class="is-hidden-desktop" style="border:0;display:none;margin:0;max-height:0;mso-hide:all;outline:0;overflow:hidden;padding:0">
                                                                         <a href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea9635ff&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" _label="MOBILE IMAGE" style="border:0;font-weight:400;margin:0;outline:0;padding:0">
@@ -686,7 +667,7 @@
 													<tbody>
 														<tr style="border:0;margin:0;outline:0;padding:0">
 															<td class="two-column-spacer" style="border:0;font-size:0;line-height:0;margin:0;outline:0;padding:0">
-															<div style="border:0;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963602&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="" class="image" src="https://domodo.co/sendy/uploads/1717965059.png" style="border: medium; margin: 0px; max-width: 700px; outline: 0px; padding: 0px; height: auto;" /> </a></div>
+															<div class="is-hidden-mobile" style="border:0;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963602&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="" class="image" src="https://domodo.co/sendy/uploads/1717965059.png" style="border: medium; margin: 0px; max-width: 700px; outline: 0px; padding: 0px; width: 207px; height: 310px;" /> </a></div>
 															<!--[if !mso]>
                                                                     <div class="is-hidden-desktop" style="border:0;display:none;margin:0;max-height:0;mso-hide:all;outline:0;overflow:hidden;padding:0">
                                                                         <a href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963603&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" _label="MOBILE IMAGE" style="border:0;font-weight:400;margin:0;outline:0;padding:0">
@@ -724,7 +705,7 @@
 												</table>
 												</td>
 												<td class="two-column-big-image-right two-column-spacer" style="border:0;font-size:0;line-height:0;margin:0;outline:0;padding:0" width="350px">
-												<div style="border:0;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963606&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="" class="image" src="https://domodo.co/sendy/uploads/1717965032.png" style="border: medium; margin: 0px; max-width: 700px; outline: 0px; padding: 0px; height: auto;" /> </a></div>
+												<div class="is-hidden-mobile" style="border:0;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963606&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="" class="image" src="https://domodo.co/sendy/uploads/1717965032.png" style="border: medium; margin: 0px; max-width: 700px; outline: 0px; padding: 0px; width: 350px; height: 525px;" /> </a></div>
 												<!--[if !mso]>
                                                         <div class="is-hidden-desktop" style="border:0;display:none;margin:0;max-height:0;mso-hide:all;outline:0;overflow:hidden;padding:0">
                                                             <a href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963607&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" _label="MOBILE IMAGE" style="border:0;font-weight:400;margin:0;outline:0;padding:0">
@@ -748,7 +729,7 @@
 										<tbody>
 											<tr style="border:0;margin:0;outline:0;padding:0">
 												<td class="two-column-big-image-left two-column-spacer" style="border:0;font-size:0;line-height:0;margin:0;outline:0;padding:0" width="350px">
-												<div style="border:0;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963608&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="" class="image" src="https://domodo.co/sendy/uploads/1717965703.png" style="border: medium; margin: 0px; max-width: 700px; outline: 0px; padding: 0px; height: auto;" /> </a></div>
+												<div class="is-hidden-mobile" style="border:0;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963608&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="" class="image" src="https://domodo.co/sendy/uploads/1717965703.png" style="border: medium; margin: 0px; max-width: 700px; outline: 0px; padding: 0px; width: 350px; height: 525px;" /> </a></div>
 												<!--[if !mso]>
                                                         <div class="is-hidden-desktop" style="border:0;display:none;margin:0;max-height:0;mso-hide:all;outline:0;overflow:hidden;padding:0">
                                                             <a href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963609&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" _label="MOBILE IMAGE" style="border:0;font-weight:400;margin:0;outline:0;padding:0">
@@ -761,7 +742,7 @@
 													<tbody>
 														<tr style="border:0;margin:0;outline:0;padding:0">
 															<td class="two-column-spacer" style="border:0;font-size:0;line-height:0;margin:0;outline:0;padding:0">
-															<div style="border:0;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea96360a&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="" class="image" src="https://domodo.co/sendy/uploads/1717966103.png" style="border: medium; margin: 0px; max-width: 700px; outline: 0px; padding: 0px; height: auto;" /> </a></div>
+															<div class="is-hidden-mobile" style="border:0;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea96360a&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="" class="image" src="https://domodo.co/sendy/uploads/1717966103.png" style="border: medium; margin: 0px; max-width: 700px; outline: 0px; padding: 0px; width: 207px; height: 311px;" /> </a></div>
 															<!--[if !mso]>
                                                                     <div class="is-hidden-desktop" style="border:0;display:none;margin:0;max-height:0;mso-hide:all;outline:0;overflow:hidden;padding:0">
                                                                         <a href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea96360b&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" _label="MOBILE IMAGE" style="border:0;font-weight:400;margin:0;outline:0;padding:0">
@@ -810,7 +791,7 @@
 													<tbody>
 														<tr style="border:0;margin:0;outline:0;padding:0">
 															<td class="two-column-spacer" style="border:0;font-size:0;line-height:0;margin:0;outline:0;padding:0">
-															<div style="border:0;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea96360e&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="" class="image" src="https://domodo.co/sendy/uploads/1717977025.png" style="border: medium; margin: 0px; max-width: 700px; outline: 0px; padding: 0px; height: auto;" /> </a></div>
+															<div class="is-hidden-mobile" style="border:0;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea96360e&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="" class="image" src="https://domodo.co/sendy/uploads/1717977025.png" style="border: medium; margin: 0px; max-width: 700px; outline: 0px; padding: 0px; width: 207px; height: 311px;" /> </a></div>
 															<!--[if !mso]>
                                                                     <div class="is-hidden-desktop" style="border:0;display:none;margin:0;max-height:0;mso-hide:all;outline:0;overflow:hidden;padding:0">
                                                                         <a href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea96360f&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" _label="MOBILE IMAGE" style="border:0;font-weight:400;margin:0;outline:0;padding:0">
@@ -843,7 +824,7 @@
 												</table>
 												</td>
 												<td class="two-column-big-image-right two-column-spacer" style="border:0;font-size:0;line-height:0;margin:0;outline:0;padding:0" width="350px">
-												<div style="border:0;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963613&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="" class="image" src="https://domodo.co/sendy/uploads/1717976993.png" style="border: medium; margin: 0px; max-width: 700px; outline: 0px; padding: 0px; height: auto;" /> </a></div>
+												<div class="is-hidden-mobile" style="border:0;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963613&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="" class="image" src="https://domodo.co/sendy/uploads/1717976993.png" style="border: medium; margin: 0px; max-width: 700px; outline: 0px; padding: 0px; width: 350px; height: 525px;" /> </a></div>
 												<!--[if !mso]>
                                                         <div class="is-hidden-desktop" style="border:0;display:none;margin:0;max-height:0;mso-hide:all;outline:0;overflow:hidden;padding:0">
                                                             <a href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963614&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" _label="MOBILE IMAGE" style="border:0;font-weight:400;margin:0;outline:0;padding:0">
@@ -867,7 +848,7 @@
 										<tbody>
 											<tr style="border:0;margin:0;outline:0;padding:0">
 												<td class="two-column-big-image-left two-column-spacer" style="border:0;font-size:0;line-height:0;margin:0;outline:0;padding:0" width="350px">
-												<div style="border:0;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963615&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="" class="image" src="https://domodo.co/sendy/uploads/1717977313.png" style="border: medium; margin: 0px; max-width: 700px; outline: 0px; padding: 0px; height: auto;" /> </a></div>
+												<div class="is-hidden-mobile" style="border:0;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963615&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="" class="image" src="https://domodo.co/sendy/uploads/1717977313.png" style="border: medium; margin: 0px; max-width: 700px; outline: 0px; padding: 0px; width: 350px; height: 525px;" /> </a></div>
 												<!--[if !mso]>
                                                         <div class="is-hidden-desktop" style="border:0;display:none;margin:0;max-height:0;mso-hide:all;outline:0;overflow:hidden;padding:0">
                                                             <a href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963616&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" _label="MOBILE IMAGE" style="border:0;font-weight:400;margin:0;outline:0;padding:0">
@@ -880,7 +861,7 @@
 													<tbody>
 														<tr style="border:0;margin:0;outline:0;padding:0">
 															<td class="two-column-spacer" style="border:0;font-size:0;line-height:0;margin:0;outline:0;padding:0">
-															<div style="border:0;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963617&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="" class="image" src="https://domodo.co/sendy/uploads/1717996523.png" style="border: medium; margin: 0px; max-width: 700px; outline: 0px; padding: 0px; height: auto;" /> </a></div>
+															<div class="is-hidden-mobile" style="border:0;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963617&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="" class="image" src="https://domodo.co/sendy/uploads/1717996523.png" style="border: medium; margin: 0px; max-width: 700px; outline: 0px; padding: 0px; width: 207px; height: 311px;" /> </a></div>
 															<!--[if !mso]>
                                                                     <div class="is-hidden-desktop" style="border:0;display:none;margin:0;max-height:0;mso-hide:all;outline:0;overflow:hidden;padding:0">
                                                                         <a href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963618&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" _label="MOBILE IMAGE" style="border:0;font-weight:400;margin:0;outline:0;padding:0">
@@ -929,7 +910,7 @@
 													<tbody>
 														<tr style="border:0;margin:0;outline:0;padding:0">
 															<td class="two-column-spacer" style="border:0;font-size:0;line-height:0;margin:0;outline:0;padding:0">
-															<div style="border:0;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea96361b&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="" class="image" src="https://lpe.hm.com/hmoces?set=locale%5Ben_us%5D&set=imageUrl%5Bhttps://aemcomm.hm.com/cms/url/v1/b64/b2ebea63aHR0cHM6Ly9scDIuaG0uY29tL2htZ29lcHByb2Q_c2V0PXJlcyU1QmwlNUQlMkNzb3VyY2VbLzYxL2ZmLzYxZmY4OTkzN2RlOTdmNzgxYTYyOWYyM2I0Mjc1NzY4NTEzZWNmZjMuanBnXSxvcmlnaW5bZGFtXSxjYXRlZ29yeVtdLHR5cGVbREVTQ1JJUFRJVkVTVElMTExJRkVdLGhtdmVyWzJdJmNhbGw9dXJsW2ZpbGU6L3Byb2R1Y3QvbWFpbl0%5D&set=width%5B414%5D&call=url%5Bhttps://s1-cdn.hm.com/global/image-chains/1.1.482/common/image.chain%5D&auth=hash%5Bb4419472%5D" style="border:none;margin:0;max-width:700px;outline:0;padding:0" /> </a></div>
+															<div class="is-hidden-mobile" style="border:0;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea96361b&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="" class="image" src="https://lpe.hm.com/hmoces?set=locale%5Ben_us%5D&set=imageUrl%5Bhttps://aemcomm.hm.com/cms/url/v1/b64/b2ebea63aHR0cHM6Ly9scDIuaG0uY29tL2htZ29lcHByb2Q_c2V0PXJlcyU1QmwlNUQlMkNzb3VyY2VbLzYxL2ZmLzYxZmY4OTkzN2RlOTdmNzgxYTYyOWYyM2I0Mjc1NzY4NTEzZWNmZjMuanBnXSxvcmlnaW5bZGFtXSxjYXRlZ29yeVtdLHR5cGVbREVTQ1JJUFRJVkVTVElMTExJRkVdLGhtdmVyWzJdJmNhbGw9dXJsW2ZpbGU6L3Byb2R1Y3QvbWFpbl0%5D&set=width%5B414%5D&call=url%5Bhttps://s1-cdn.hm.com/global/image-chains/1.1.482/common/image.chain%5D&auth=hash%5Bb4419472%5D" style="border:none;margin:0;max-width:700px;outline:0;padding:0" width="207" /> </a></div>
 															<!--[if !mso]>
                                                                     <div class="is-hidden-desktop" style="border:0;display:none;margin:0;max-height:0;mso-hide:all;outline:0;overflow:hidden;padding:0">
                                                                         <a href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea96361c&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" _label="MOBILE IMAGE" style="border:0;font-weight:400;margin:0;outline:0;padding:0">
@@ -967,7 +948,7 @@
 												</table>
 												</td>
 												<td class="two-column-big-image-right two-column-spacer" style="border:0;font-size:0;line-height:0;margin:0;outline:0;padding:0" width="350px">
-												<div style="border:0;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea96361f&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="" class="image" src="https://lpe.hm.com/hmoces?set=locale%5Ben_us%5D&set=imageUrl%5Bhttps://aemcomm.hm.com/cms/url/v1/b64/42366f5daHR0cHM6Ly9scDIuaG0uY29tL2htZ29lcHByb2Q_c2V0PXJlcyU1QmwlNUQlMkNzb3VyY2VbL2QzL2E1L2QzYTUwY2Q1YWNhYmM5ODBiOWQzZTgwNDIzOThkODM4MTBlNmVhYzEuanBnXSxvcmlnaW5bZGFtXSxjYXRlZ29yeVtdLHR5cGVbTE9PS0JPT0tdLGhtdmVyWzFdJmNhbGw9dXJsW2ZpbGU6L3Byb2R1Y3QvbWFpbl0%5D&set=width%5B700%5D&call=url%5Bhttps://s1-cdn.hm.com/global/image-chains/1.1.482/common/image.chain%5D&auth=hash%5B86cf633f%5D" style="border:none;margin:0;max-width:700px;outline:0;padding:0" /> </a></div>
+												<div class="is-hidden-mobile" style="border:0;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea96361f&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="" class="image" src="https://lpe.hm.com/hmoces?set=locale%5Ben_us%5D&set=imageUrl%5Bhttps://aemcomm.hm.com/cms/url/v1/b64/42366f5daHR0cHM6Ly9scDIuaG0uY29tL2htZ29lcHByb2Q_c2V0PXJlcyU1QmwlNUQlMkNzb3VyY2VbL2QzL2E1L2QzYTUwY2Q1YWNhYmM5ODBiOWQzZTgwNDIzOThkODM4MTBlNmVhYzEuanBnXSxvcmlnaW5bZGFtXSxjYXRlZ29yeVtdLHR5cGVbTE9PS0JPT0tdLGhtdmVyWzFdJmNhbGw9dXJsW2ZpbGU6L3Byb2R1Y3QvbWFpbl0%5D&set=width%5B700%5D&call=url%5Bhttps://s1-cdn.hm.com/global/image-chains/1.1.482/common/image.chain%5D&auth=hash%5B86cf633f%5D" style="border:none;margin:0;max-width:700px;outline:0;padding:0" width="350" /> </a></div>
 												<!--[if !mso]>
                                                         <div class="is-hidden-desktop" style="border:0;display:none;margin:0;max-height:0;mso-hide:all;outline:0;overflow:hidden;padding:0">
                                                             <a href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963620&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" _label="MOBILE IMAGE" style="border:0;font-weight:400;margin:0;outline:0;padding:0">
@@ -1102,7 +1083,7 @@
 																		<td align="center" class="tutorial-item-text tutorial-item-pull-left text-semi-bold" style="-webkit-font-smoothing:antialiased;border:0;color:#222;font-family:HMSansSemiBold,Arial,sans-serif;font-size:13px;font-weight:600;line-height:20px;margin:0;outline:0;padding:0"><a class="tutorial-item-link tutorial-item-underline" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea96362b&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;color:#222;font-weight:400;margin:0;outline:0;padding:0;padding-bottom:1px;text-decoration:underline">Free shipping for Plus members</a></td>
 																	</tr>
 																	<tr style="border:0;margin:0;outline:0;padding:0">
-																		<td align="center" class="tutorial-item-text tutorial-item-pull-left text-normal" style="-webkit-font-smoothing:antialiased;border:0;color:#222;font-family:HMSans,Arial,sans-serif;font-size:13px;font-weight:400;line-height:20px;margin:0;outline:0;padding:0"><a class="tutorial-item-link" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea96362c&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;color:#222;font-weight:400;margin:0;outline:0;padding:0">Reach 500 points to unlock the highest loyalty tier and receive free shipping on every order, every day!!s</a></td>
+																		<td align="center" class="tutorial-item-text tutorial-item-pull-left text-normal" style="-webkit-font-smoothing:antialiased;border:0;color:#222;font-family:HMSans,Arial,sans-serif;font-size:13px;font-weight:400;line-height:20px;margin:0;outline:0;padding:0"><a class="tutorial-item-link" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea96362c&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;color:#222;font-weight:400;margin:0;outline:0;padding:0">Reach 500 points to unlock the highest loyalty tier and receive free shipping on every order, every day!</a></td>
 																	</tr>
 																</tbody>
 															</table>
@@ -1190,11 +1171,11 @@
                                                                     <td class="cta-links-container" style="border:0;font-size:0;margin:0;outline:0;padding:0 24px" align="center">
                                                                         <table style="border:0;border-collapse:separate;border-spacing:0;margin:0;outline:0;padding:0" border="0" cellpadding="0" cellspacing="0" width="100%">
                                                                             <tr style="border:0;margin:0;outline:0;padding:0">
-                                                                                <td width="20%" style="border:0;margin:0;outline:0;padding:0"> </td>
+                                                                                <td width="20%" style="border:0;margin:0;outline:0;padding:0"> </td>
                                                                                 <td class="cta-link-mobile-border" style="border:1px solid #000000;border-color:#000000;margin:0;outline:0;padding:12px 0" width="60%" align="center">
-                                                                                    <a href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963634&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" class="cta-link-mobile text-bold" x-cq-linkchecker="skip" style="-webkit-font-smoothing:antialiased;border:0;color:#000000;display:inline-block;font-family:HMSans,Arial,sans-serif;font-size:16px;font-weight:700;line-height:20px;margin:0;outline:0;padding:0;text-align:center;text-decoration:none;width:100%">Shop now</a>
+                                                                                    <a href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963634&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" class="cta-link-mobile text-bold" x-cq-linkchecker="skip" style="-webkit-font-smoothing:antialiased;border:0;color:#000000;display:inline-block;font-family:HMSans,Arial,sans-serif;font-size:16px;font-weight:700;line-height:20px;margin:0;outline:0;padding:0;text-align:center;text-decoration:none;width:100%">Shop now</a>
                                                                                 </td>
-                                                                                <td width="20%" style="border:0;margin:0;outline:0;padding:0"> </td>
+                                                                                <td width="20%" style="border:0;margin:0;outline:0;padding:0"> </td>
                                                                             </tr>
                                                                         </table>
                                                                     </td>
@@ -1216,12 +1197,12 @@
 <table align="center" border="0" cellpadding="0" cellspacing="0" style="border:0;border-collapse:separate;border-spacing:0;margin:0;outline:0;padding:0" width="100%">
 	<tbody>
 		<tr style="border:0;margin:0;outline:0;padding:0">
-			<td align="center" class="email-layout" style="border:0;margin:0;outline:0;padding:0" width="100%">
+			<td align="center" class="email-layout" style="border:0;margin:0;min-width:700px;outline:0;padding:0" width="100%">
 			<table border="0" cellpadding="0" cellspacing="0" class="footer" style="background:#e4e4e4;border:0;border-collapse:separate;border-spacing:0;margin:0;outline:0;padding:0;text-align:center" width="100%">
 				<tbody>
 					<tr style="border:0;margin:0;outline:0;padding:0">
 						<td align="center" style="border:0;margin:0;outline:0;padding:0">
-						<table border="0" cellpadding="0" cellspacing="0" class="footer-table" style="border:0;border-collapse:separate;border-spacing:0;margin:0;outline:0;padding:0">
+						<table border="0" cellpadding="0" cellspacing="0" class="footer-table" style="border:0;border-collapse:separate;border-spacing:0;margin:0;outline:0;padding:0" width="700px !important">
 							<tbody>
 								<tr style="border:0;margin:0;outline:0;padding:0">
 									<td align="center" style="border:0;margin:0;outline:0;padding:0">
@@ -1230,7 +1211,7 @@
 											<tr class="department-title-wrapper" style="border:0;margin:0;outline:0;padding:0">
 												<td align="center" class="department-title text-semi-bold" style="-webkit-font-smoothing:antialiased;border:0;color:#222;font-family:HMSansSemiBold,Arial,sans-serif;font-size:36px;font-weight:600;line-height:42px;margin:0;outline:0;padding:96px 0 48px">Shop by</td>
 											</tr>
-											<tr style="border:0;margin:0;outline:0;padding:0">
+											<tr class="is-hidden-mobile" style="border:0;margin:0;outline:0;padding:0">
 												<td class="departments-wrapper" style="border:0;margin:0;outline:0;padding:0;padding-bottom:24px">
 												<table border="0" cellpadding="0" cellspacing="0" style="border:0;border-collapse:separate;border-spacing:0;margin:0;outline:0;padding:0" width="100%">
 													<tbody>
@@ -1244,7 +1225,7 @@
 																		<table border="0" cellpadding="0" cellspacing="0" style="border:0;border-collapse:separate;border-spacing:0;margin:0;outline:0;padding:0" width="100%">
 																			<tbody>
 																				<tr style="border:0;margin:0;outline:0;padding:0">
-																					<td align="center" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963635&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="Women" class="department-image image-with-height " height="" src="https://lpe.hm.com/hmoces?set=imageUrl%5Bhttps://aemcomm.hm.com/content/dam/hm/Seasonal%20Images%20Email/ss24/-1.00-Fashion-News-Choose-Women-1400x1400.jpg/_jcr_content/renditions/cq5dam.web.250.250.jpeg%5D&call=url%5Bhttps://s1-cdn.hm.com/global/image-chains/1.1.482/common/image.chain%5D&auth=hash%5B584d2ce5%5D" style="border:none;border-radius:4px;margin:0;max-width:700px;outline:0;padding:0" width="133" /> </a></td>
+																					<td align="center" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963635&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="Women" class="department-image image-with-height " height="133" src="https://lpe.hm.com/hmoces?set=imageUrl%5Bhttps://aemcomm.hm.com/content/dam/hm/Seasonal%20Images%20Email/ss24/-1.00-Fashion-News-Choose-Women-1400x1400.jpg/_jcr_content/renditions/cq5dam.web.250.250.jpeg%5D&call=url%5Bhttps://s1-cdn.hm.com/global/image-chains/1.1.482/common/image.chain%5D&auth=hash%5B584d2ce5%5D" style="border:none;border-radius:4px;margin:0;max-width:700px;outline:0;padding:0" width="133" /> </a></td>
 																				</tr>
 																				<tr style="border:0;margin:0;outline:0;padding:0">
 																					<td align="center" class="department-link-container" style="border:0;margin:0;outline:0;padding:8px 0 32px"><a class="department-link text-normal" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963636&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="-webkit-font-smoothing:antialiased;border:0;color:#222;font-family:HMSans,Arial,sans-serif;font-size:16px;font-weight:400;line-height:20px;margin:0;outline:0;padding:0;text-decoration:none" x-cq-linkchecker="skip">Women</a></td>
@@ -1257,7 +1238,7 @@
 																		<table border="0" cellpadding="0" cellspacing="0" style="border:0;border-collapse:separate;border-spacing:0;margin:0;outline:0;padding:0" width="100%">
 																			<tbody>
 																				<tr style="border:0;margin:0;outline:0;padding:0">
-																					<td align="center" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963637&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="Men" class="department-image image-with-height" height="auto" src="https://lpe.hm.com/hmoces?set=imageUrl%5Bhttps://aemcomm.hm.com/content/dam/hm/Seasonal%20Images%20Email/ss24/-1.00-Fashion-News-Men-1400x14002.jpg/_jcr_content/renditions/cq5dam.web.250.250.jpeg%5D&call=url%5Bhttps://s1-cdn.hm.com/global/image-chains/1.1.482/common/image.chain%5D&auth=hash%5B1a24b3db%5D" style="border:none;border-radius:4px;margin:0;max-width:700px;outline:0;padding:0" width="133" /> </a></td>
+																					<td align="center" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963637&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="Men" class="department-image image-with-height" height="133" src="https://lpe.hm.com/hmoces?set=imageUrl%5Bhttps://aemcomm.hm.com/content/dam/hm/Seasonal%20Images%20Email/ss24/-1.00-Fashion-News-Men-1400x14002.jpg/_jcr_content/renditions/cq5dam.web.250.250.jpeg%5D&call=url%5Bhttps://s1-cdn.hm.com/global/image-chains/1.1.482/common/image.chain%5D&auth=hash%5B1a24b3db%5D" style="border:none;border-radius:4px;margin:0;max-width:700px;outline:0;padding:0" width="133" /> </a></td>
 																				</tr>
 																				<tr style="border:0;margin:0;outline:0;padding:0">
 																					<td align="center" class="department-link-container" style="border:0;margin:0;outline:0;padding:8px 0 32px"><a class="department-link text-normal" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963638&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="-webkit-font-smoothing:antialiased;border:0;color:#222;font-family:HMSans,Arial,sans-serif;font-size:16px;font-weight:400;line-height:20px;margin:0;outline:0;padding:0;text-decoration:none" x-cq-linkchecker="skip">Men</a></td>
@@ -1270,7 +1251,7 @@
 																		<table border="0" cellpadding="0" cellspacing="0" style="border:0;border-collapse:separate;border-spacing:0;margin:0;outline:0;padding:0" width="100%">
 																			<tbody>
 																				<tr style="border:0;margin:0;outline:0;padding:0">
-																					<td align="center" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963639&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="Kids" class="department-image image-with-height" height="auto" src="https://lpe.hm.com/hmoces?set=imageUrl%5Bhttps://aemcomm.hm.com/content/dam/hm/Seasonal%20Images%20Email/ss24/-1.00-Fashion-News-Kids-1400x14004.jpg/_jcr_content/renditions/cq5dam.web.250.250.jpeg%5D&call=url%5Bhttps://s1-cdn.hm.com/global/image-chains/1.1.482/common/image.chain%5D&auth=hash%5B53c008a9%5D" style="border:none;border-radius:4px;margin:0;max-width:700px;outline:0;padding:0" width="133" /> </a></td>
+																					<td align="center" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963639&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="Kids" class="department-image image-with-height" height="133" src="https://lpe.hm.com/hmoces?set=imageUrl%5Bhttps://aemcomm.hm.com/content/dam/hm/Seasonal%20Images%20Email/ss24/-1.00-Fashion-News-Kids-1400x14004.jpg/_jcr_content/renditions/cq5dam.web.250.250.jpeg%5D&call=url%5Bhttps://s1-cdn.hm.com/global/image-chains/1.1.482/common/image.chain%5D&auth=hash%5B53c008a9%5D" style="border:none;border-radius:4px;margin:0;max-width:700px;outline:0;padding:0" width="133" /> </a></td>
 																				</tr>
 																				<tr style="border:0;margin:0;outline:0;padding:0">
 																					<td align="center" class="department-link-container" style="border:0;margin:0;outline:0;padding:8px 0 32px"><a class="department-link text-normal" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea96363a&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="-webkit-font-smoothing:antialiased;border:0;color:#222;font-family:HMSans,Arial,sans-serif;font-size:16px;font-weight:400;line-height:20px;margin:0;outline:0;padding:0;text-decoration:none" x-cq-linkchecker="skip">Kids</a></td>
@@ -1283,7 +1264,7 @@
 																		<table border="0" cellpadding="0" cellspacing="0" style="border:0;border-collapse:separate;border-spacing:0;margin:0;outline:0;padding:0" width="100%">
 																			<tbody>
 																				<tr style="border:0;margin:0;outline:0;padding:0">
-																					<td align="center" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea96363b&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="Baby" class="department-image image-with-height" height="auto" src="https://lpe.hm.com/hmoces?set=imageUrl%5Bhttps://aemcomm.hm.com/content/dam/hm/Seasonal%20Images%20Email/ss24/FN%20baby-choose-department-Baby.jpg/_jcr_content/renditions/cq5dam.web.250.250.jpeg%5D&call=url%5Bhttps://s1-cdn.hm.com/global/image-chains/1.1.482/common/image.chain%5D&auth=hash%5Bdb6c2f08%5D" style="border:none;border-radius:4px;margin:0;max-width:700px;outline:0;padding:0" width="133" /> </a></td>
+																					<td align="center" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea96363b&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="Baby" class="department-image image-with-height" height="133" src="https://lpe.hm.com/hmoces?set=imageUrl%5Bhttps://aemcomm.hm.com/content/dam/hm/Seasonal%20Images%20Email/ss24/FN%20baby-choose-department-Baby.jpg/_jcr_content/renditions/cq5dam.web.250.250.jpeg%5D&call=url%5Bhttps://s1-cdn.hm.com/global/image-chains/1.1.482/common/image.chain%5D&auth=hash%5Bdb6c2f08%5D" style="border:none;border-radius:4px;margin:0;max-width:700px;outline:0;padding:0" width="133" /> </a></td>
 																				</tr>
 																				<tr style="border:0;margin:0;outline:0;padding:0">
 																					<td align="center" class="department-link-container" style="border:0;margin:0;outline:0;padding:8px 0 32px"><a class="department-link text-normal" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea96363c&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="-webkit-font-smoothing:antialiased;border:0;color:#222;font-family:HMSans,Arial,sans-serif;font-size:16px;font-weight:400;line-height:20px;margin:0;outline:0;padding:0;text-decoration:none" x-cq-linkchecker="skip">Baby</a></td>
@@ -1308,7 +1289,7 @@
 																		<table border="0" cellpadding="0" cellspacing="0" style="border:0;border-collapse:separate;border-spacing:0;margin:0;outline:0;padding:0" width="100%">
 																			<tbody>
 																				<tr style="border:0;margin:0;outline:0;padding:0">
-																					<td align="center" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea96363d&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="Sports" class="department-image image-with-height" height="auto" src="https://lpe.hm.com/hmoces?set=imageUrl%5Bhttps://aemcomm.hm.com/content/dam/hm/Seasonal%20Images%20Email/ss24/choose-department-Move.png%5D&call=url%5Bhttps://s1-cdn.hm.com/global/image-chains/1.1.482/common/image.chain%5D&auth=hash%5Bfb5ce3c5%5D" style="border:none;border-radius:4px;margin:0;max-width:700px;outline:0;padding:0" width="133" /> </a></td>
+																					<td align="center" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea96363d&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="Sports" class="department-image image-with-height" height="133" src="https://lpe.hm.com/hmoces?set=imageUrl%5Bhttps://aemcomm.hm.com/content/dam/hm/Seasonal%20Images%20Email/ss24/choose-department-Move.png%5D&call=url%5Bhttps://s1-cdn.hm.com/global/image-chains/1.1.482/common/image.chain%5D&auth=hash%5Bfb5ce3c5%5D" style="border:none;border-radius:4px;margin:0;max-width:700px;outline:0;padding:0" width="133" /> </a></td>
 																				</tr>
 																				<tr style="border:0;margin:0;outline:0;padding:0">
 																					<td align="center" class="department-link-container" style="border:0;margin:0;outline:0;padding:8px 0 32px"><a class="department-link text-normal" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea96363e&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="-webkit-font-smoothing:antialiased;border:0;color:#222;font-family:HMSans,Arial,sans-serif;font-size:16px;font-weight:400;line-height:20px;margin:0;outline:0;padding:0;text-decoration:none" x-cq-linkchecker="skip">Sports</a></td>
@@ -1321,7 +1302,7 @@
 																		<table border="0" cellpadding="0" cellspacing="0" style="border:0;border-collapse:separate;border-spacing:0;margin:0;outline:0;padding:0" width="100%">
 																			<tbody>
 																				<tr style="border:0;margin:0;outline:0;padding:0">
-																					<td align="center" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea96363f&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="H&M HOME" class="department-image image-with-height" height="auto" src="https://lpe.hm.com/hmoces?set=imageUrl%5Bhttps://aemcomm.hm.com/content/dam/hm/Seasonal%20Images%20Email/ss24/01.Home_Fashion-News-Choose-Deptartment-1400x1400_4.jpg/_jcr_content/renditions/cq5dam.web.250.250.jpeg%5D&call=url%5Bhttps://s1-cdn.hm.com/global/image-chains/1.1.482/common/image.chain%5D&auth=hash%5B59723844%5D" style="border:none;border-radius:4px;margin:0;max-width:700px;outline:0;padding:0" width="133" /> </a></td>
+																					<td align="center" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea96363f&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="H&M HOME" class="department-image image-with-height" height="133" src="https://lpe.hm.com/hmoces?set=imageUrl%5Bhttps://aemcomm.hm.com/content/dam/hm/Seasonal%20Images%20Email/ss24/01.Home_Fashion-News-Choose-Deptartment-1400x1400_4.jpg/_jcr_content/renditions/cq5dam.web.250.250.jpeg%5D&call=url%5Bhttps://s1-cdn.hm.com/global/image-chains/1.1.482/common/image.chain%5D&auth=hash%5B59723844%5D" style="border:none;border-radius:4px;margin:0;max-width:700px;outline:0;padding:0" width="133" /> </a></td>
 																				</tr>
 																				<tr style="border:0;margin:0;outline:0;padding:0">
 																					<td align="center" class="department-link-container" style="border:0;margin:0;outline:0;padding:8px 0 32px"><a class="department-link text-normal" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963640&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="-webkit-font-smoothing:antialiased;border:0;color:#222;font-family:HMSans,Arial,sans-serif;font-size:16px;font-weight:400;line-height:20px;margin:0;outline:0;padding:0;text-decoration:none" x-cq-linkchecker="skip">H&M HOME</a></td>
@@ -1334,7 +1315,7 @@
 																		<table border="0" cellpadding="0" cellspacing="0" style="border:0;border-collapse:separate;border-spacing:0;margin:0;outline:0;padding:0" width="100%">
 																			<tbody>
 																				<tr style="border:0;margin:0;outline:0;padding:0">
-																					<td align="center" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963641&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="Beauty" class="department-image image-with-height" height="auto" src="https://lpe.hm.com/hmoces?set=imageUrl%5Bhttps://aemcomm.hm.com/content/dam/hm/Seasonal%20Images%20Email/ss24/01.00-Fashion-News-Choose-Deptartment-Beauty-.jpg/_jcr_content/renditions/cq5dam.web.250.250.jpeg%5D&call=url%5Bhttps://s1-cdn.hm.com/global/image-chains/1.1.482/common/image.chain%5D&auth=hash%5B00b28113%5D" style="border:none;border-radius:4px;margin:0;max-width:700px;outline:0;padding:0" width="133" /> </a></td>
+																					<td align="center" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963641&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="Beauty" class="department-image image-with-height" height="133" src="https://lpe.hm.com/hmoces?set=imageUrl%5Bhttps://aemcomm.hm.com/content/dam/hm/Seasonal%20Images%20Email/ss24/01.00-Fashion-News-Choose-Deptartment-Beauty-.jpg/_jcr_content/renditions/cq5dam.web.250.250.jpeg%5D&call=url%5Bhttps://s1-cdn.hm.com/global/image-chains/1.1.482/common/image.chain%5D&auth=hash%5B00b28113%5D" style="border:none;border-radius:4px;margin:0;max-width:700px;outline:0;padding:0" width="133" /> </a></td>
 																				</tr>
 																				<tr style="border:0;margin:0;outline:0;padding:0">
 																					<td align="center" class="department-link-container" style="border:0;margin:0;outline:0;padding:8px 0 32px"><a class="department-link text-normal" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963642&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="-webkit-font-smoothing:antialiased;border:0;color:#222;font-family:HMSans,Arial,sans-serif;font-size:16px;font-weight:400;line-height:20px;margin:0;outline:0;padding:0;text-decoration:none" x-cq-linkchecker="skip">Beauty</a></td>
@@ -1347,7 +1328,7 @@
 																		<table border="0" cellpadding="0" cellspacing="0" style="border:0;border-collapse:separate;border-spacing:0;margin:0;outline:0;padding:0" width="100%">
 																			<tbody>
 																				<tr style="border:0;margin:0;outline:0;padding:0">
-																					<td align="center" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963643&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="Sustainability" class="department-image image-with-height" height="auto" src="https://lpe.hm.com/hmoces?set=imageUrl%5Bhttps://aemcomm.hm.com/content/dam/hm/Seasonal%20Images%20Email/jan-2022/Department-bild-sustainability1x1.jpg/_jcr_content/renditions/cq5dam.web.250.250.jpeg%5D&call=url%5Bhttps://s1-cdn.hm.com/global/image-chains/1.1.482/common/image.chain%5D&auth=hash%5B65bf696a%5D" style="border:none;border-radius:4px;margin:0;max-width:700px;outline:0;padding:0" width="133" /> </a></td>
+																					<td align="center" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963643&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt="Sustainability" class="department-image image-with-height" height="133" src="https://lpe.hm.com/hmoces?set=imageUrl%5Bhttps://aemcomm.hm.com/content/dam/hm/Seasonal%20Images%20Email/jan-2022/Department-bild-sustainability1x1.jpg/_jcr_content/renditions/cq5dam.web.250.250.jpeg%5D&call=url%5Bhttps://s1-cdn.hm.com/global/image-chains/1.1.482/common/image.chain%5D&auth=hash%5B65bf696a%5D" style="border:none;border-radius:4px;margin:0;max-width:700px;outline:0;padding:0" width="133" /> </a></td>
 																				</tr>
 																				<tr style="border:0;margin:0;outline:0;padding:0">
 																					<td align="center" class="department-link-container" style="border:0;margin:0;outline:0;padding:8px 0 32px"><a class="department-link text-normal" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963644&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="-webkit-font-smoothing:antialiased;border:0;color:#222;font-family:HMSans,Arial,sans-serif;font-size:16px;font-weight:400;line-height:20px;margin:0;outline:0;padding:0;text-decoration:none" x-cq-linkchecker="skip">Sustainability</a></td>
@@ -1390,7 +1371,7 @@
                                                                                             </tr>
                                                                                         </table>
                                                                                     </td>
-                                                                                    <td width="4" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"> </td>
+                                                                                    <td width="4" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"> </td>
                                                                                     <td width="122" style="border:0;margin:0;outline:0;padding:0">
                                                                                         <table style="border:0;border-collapse:separate;border-spacing:0;margin:0;outline:0;padding:0" border="0" cellpadding="0" cellspacing="0" width="100%">
                                                                                             <tr style="border:0;margin:0;outline:0;padding:0">
@@ -1407,7 +1388,7 @@
                                                                                             </tr>
                                                                                         </table>
                                                                                     </td>
-                                                                                    <td width="4" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"> </td>
+                                                                                    <td width="4" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"> </td>
                                                                                     <td width="122" style="border:0;margin:0;outline:0;padding:0">
                                                                                         <table style="border:0;border-collapse:separate;border-spacing:0;margin:0;outline:0;padding:0" border="0" cellpadding="0" cellspacing="0" width="100%">
                                                                                             <tr style="border:0;margin:0;outline:0;padding:0">
@@ -1448,7 +1429,7 @@
                                                                                             </tr>
                                                                                         </table>
                                                                                     </td>
-                                                                                    <td width="4" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"> </td>
+                                                                                    <td width="4" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"> </td>
                                                                                     <td width="122" style="border:0;margin:0;outline:0;padding:0">
                                                                                         <table style="border:0;border-collapse:separate;border-spacing:0;margin:0;outline:0;padding:0" border="0" cellpadding="0" cellspacing="0" width="100%">
                                                                                             <tr style="border:0;margin:0;outline:0;padding:0">
@@ -1465,7 +1446,7 @@
                                                                                             </tr>
                                                                                         </table>
                                                                                     </td>
-                                                                                    <td width="4" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"> </td>
+                                                                                    <td width="4" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"> </td>
                                                                                     <td width="122" style="border:0;margin:0;outline:0;padding:0">
                                                                                         <table style="border:0;border-collapse:separate;border-spacing:0;margin:0;outline:0;padding:0" border="0" cellpadding="0" cellspacing="0" width="100%">
                                                                                             <tr style="border:0;margin:0;outline:0;padding:0">
@@ -1490,7 +1471,7 @@
                                                                         <td align="center" style="border:0;margin:0;outline:0;padding:0">
                                                                             <table style="border:0;border-collapse:separate;border-spacing:0;margin:0;outline:0;padding:0" border="0" cellpadding="0" cellspacing="0" width="100%">
                                                                                 <tr style="border:0;margin:0;outline:0;padding:0">
-                                                                                    <td width="63" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"> </td>
+                                                                                    <td width="63" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"> </td>
                                                                                     <td width="122" style="border:0;margin:0;outline:0;padding:0">
                                                                                         <table style="border:0;border-collapse:separate;border-spacing:0;margin:0;outline:0;padding:0" border="0" cellpadding="0" cellspacing="0" width="100%">
                                                                                             <tr style="border:0;margin:0;outline:0;padding:0">
@@ -1507,7 +1488,7 @@
                                                                                             </tr>
                                                                                         </table>
                                                                                     </td>
-                                                                                    <td width="4" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"> </td>
+                                                                                    <td width="4" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"> </td>
                                                                                     <td width="122" style="border:0;margin:0;outline:0;padding:0">
                                                                                         <table style="border:0;border-collapse:separate;border-spacing:0;margin:0;outline:0;padding:0" border="0" cellpadding="0" cellspacing="0" width="100%">
                                                                                             <tr style="border:0;margin:0;outline:0;padding:0">
@@ -1524,8 +1505,8 @@
                                                                                             </tr>
                                                                                         </table>
                                                                                     </td>
-                                                                                    <td width="4" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"> </td>
-                                                                                    <td width="63" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"> </td>
+                                                                                    <td width="4" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"> </td>
+                                                                                    <td width="63" class="spacer" style="border:0;font-size:0;line-height:1px;margin:0;outline:0;padding:0"> </td>
                                                                                 </tr>
                                                                             </table>
                                                                         </td>
@@ -1543,7 +1524,7 @@
 									<table align="center" border="0" cellpadding="0" cellspacing="0" style="border:0;border-collapse:separate;border-spacing:0;margin:0;outline:0;padding:0" width="100%">
 										<tbody>
 											<tr style="border:0;margin:0;outline:0;padding:0">
-												<td align="center" class="footer-layout" style="background:#e4e4e4;border:0;color:#222;margin:0;outline:0;padding:40px 0" width="700"><a href="https://domodo.co/sendy/w/KfRQv892HQFx81763cFL95FfJw" target="_blank">View web version</a>
+												<td align="center" class="footer-layout" style="background:#e4e4e4;border:0;color:#222;margin:0;outline:0;padding:40px 0" width="700"><webversion>View web version</webversion>
 												<table border="0" cellpadding="0" cellspacing="0" style="border:0;border-collapse:separate;border-spacing:0;margin:0;outline:0;padding:0" width="100%">
 													<tbody>
 														<tr class="is-hidden-mobile" style="border:0;margin:0;outline:0;padding:0">
