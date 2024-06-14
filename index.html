@@ -34,102 +34,81 @@
         @import url('https://fabric.hmgroup.com/fabric-fonts/0/northstar/css/fonts.css');
 @import url('https://s1-cdn.hm.com/global/hm-fonts/4.0.1/oces.css');
 
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: 100%;
+}
+
 a {
     text-decoration: none;
 }
 
 img {
-    max-width: 100% !important;
-    max-height: 100% !important;
+    max-width: 100%;
+    height: auto;
 }
 
-.prevent-auto-links a {
-    color: inherit !important;
-    text-decoration: none !important;
-}
+/* Desktop Styles */
+@media (min-width: 700px) {
+    .header-logo img {
+        width: 223px; /* Original size for desktop */
+        height: 41px;
+    }
 
-.prevent-auto-links a.allowed-link {
-    text-decoration: underline !important;
-}
+    .product-recommendation-top-image img {
+        width: 540px; /* Original size for desktop */
+        height: 960px;
+    }
 
-.prevent-paragraph-margins p {
-    margin: 0 !important;
-}
+    .cta-link {
+        font-size: 16px;
+        padding: 12px;
+        width: auto;
+    }
 
-.prevent-top-paragraph-margins {
-    margin-top: 0 !important;
-}
+    .two-column-big-image-left img,
+    .two-column-small-image img {
+        width: auto;
+        height: auto;
+    }
 
-.prevent-bottom-paragraph-margins {
-    margin-bottom: 0 !important;
-}
+    .email-layout {
+        width: 700px;
+    }
 
-img.image + div {
-    display: none !important;
-}
-
-#MessageViewBody .hide-webkit {
-    display: block !important;
-}
-
-#MessageViewBody .show-webkit-table {
-    display: none !important;
-}
-
-@media screen yahoo {
-    .show-webkit-table {
-        display: none;
+    .padding_class {
+        padding: 0 24px;
     }
 }
 
+/* Mobile Styles */
 @media (max-width: 699px) {
-    .is-hidden-mobile {
-        max-height: 0 !important;
-        line-height: 0 !important;
-        display: none !important;
-        mso-hide: all !important;
-        overflow: hidden !important;
-    }
-
-    .is-hidden-desktop {
-        max-height: initial !important;
-        line-height: auto !important;
-        display: inline !important;
-        mso-hide: none !important;
-        overflow: auto !important;
-    }
-
-    .image-mobile {
+    body,
+    .email-background,
+    .email-layout {
         width: 100% !important;
-        height: auto !important;
+        padding: 10px !important;
+        box-sizing: border-box;
     }
 
-    .text-block-headline {
-        padding: 7px 0 0 0 !important;
+    .header-logo img {
+        width: 100px;
+        height: auto;
     }
 
-    .text-block-headline-size-spacing {
+    .header-menu-container,
+    .text-block-headline,
+    .text-block-preamble {
         width: auto !important;
+        padding: 0 10px !important;
+        box-sizing: border-box;
     }
 
     .text-block-headline-text {
-        font-size: 30px !important;
-        line-height: 36px !important;
-    }
-
-    .text-block-headline-text.text-large {
-        font-size: 40px !important;
-        line-height: 46px !important;
-    }
-
-    .text-block-headline-text.text-secondary {
-        font-size: 30px !important;
-        line-height: 36px !important;
-    }
-
-    .text-block-headline-text.text-small {
-        font-size: 28px !important;
-        line-height: 36px !important;
+        font-size: 24px !important;
+        line-height: 30px !important;
     }
 
     .text-block-preamble-text {
@@ -137,154 +116,64 @@ img.image + div {
         line-height: 16px !important;
     }
 
-    .text-block-preamble-padding {
-        padding-top: 6px !important;
-        padding-bottom: 7px !important;
+    .cta-link {
+        font-size: 14px;
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+        display: inline-block;
+        text-align: center;
     }
 
-    .text-block-preamble-side-spacer {
-        width: auto !important;
+    .is-hidden-mobile {
+        display: none !important;
     }
 
-    .department-title {
-        font-size: 24px !important;
-        line-height: 30px !important;
-        padding: 31px 0 32px !important;
+    .is-hidden-desktop {
+        display: inline !important;
+        max-height: none !important;
+        line-height: auto !important;
+        overflow: visible !important;
     }
 
-    .department-link {
-        font-size: 14px !important;
-        line-height: 18px !important;
-    }
-
-    .department-link-container {
-        padding: 8px 0 20px !important;
-    }
-
-    .departments-wrapper {
-        padding-bottom: 26px !important;
-    }
-
-    .department-title {
-        font-size: 16px !important;
-        line-height: 20.8px !important;
-    }
-
-    .department-link {
-        font-size: 12px !important;
-        line-height: 15.6px !important;
-        word-break: break-all;
-        overflow-wrap: break-word;
-    }
-
-    .cta-link-mobile {
-        line-height: 18px !important;
-        font-size: 16px !important;
-    }
-
-    .cta-link-mobile {
-        line-height: 15.6px !important;
-        font-size: 12px !important;
-    }
-
-    .footer-table {
+    .image-mobile {
         width: 100% !important;
-    }
-
-    .footer-social-media-spacer {
-        width: 20px !important;
-    }
-
-    .footer-toc-wrapper {
-        padding: 20px 25px !important;
-    }
-
-    .footer-button {
-        padding: 7px 0 4px !important;
-    }
-
-    .footer-headline {
-        padding-top: 19px !important;
-        padding-bottom: 15px !important;
-    }
-
-    .footer-hm-logo-wrapper {
-        padding-top: 36px !important;
-        padding-bottom: 20px !important;
-    }
-
-    .footer-layout {
-        padding: 20px 0 !important;
-    }
-
-    .footer-social-media-icons-wrapper {
-        padding: 15px 0 !important;
-    }
-
-    .footer-view-in-browser {
-        padding-bottom: 20px !important;
-    }
-
-    .footer {
-        padding: 29px 0 32px !important;
-    }
-
-    .footer-unsubscribe {
-        padding-top: 10px !important;
-    }
-
-    .grid-divider {
-        padding: 48px 24px 16px !important;
-    }
-
-    .small-grid-divider {
-        padding: 8px 24px 16px !important;
-    }
-
-    .two-column-big-image-left {
-        width: 188px !important;
-    }
-
-    .two-column-big-image-right {
-        width: 187px !important;
-    }
-
-    .two-column-product-info-text {
-        font-size: 11px !important;
-        line-height: 14px !important;
-    }
-
-    .two-column-small-image {
-        padding: 0 39px !important;
-    }
-
-    .two-column-additional-attribute {
-        width: 161px !important;
-    }
-
-    .header-menu {
-        padding: 0 !important;
+        height: auto !important;
     }
 
     .header-text-size-large {
+        font-size: 14px !important;
         line-height: 16px !important;
         padding: 0 12px !important;
     }
 
-    .header-show-desktop-only {
-        display: none !important;
+    .footer-table,
+    .footer-toc-wrapper,
+    .footer-button,
+    .footer-headline,
+    .footer-hm-logo-wrapper,
+    .footer-layout,
+    .footer-social-media-icons-wrapper,
+    .footer-view-in-browser,
+    .footer,
+    .footer-unsubscribe {
+        width: 100% !important;
+        padding: 10px !important;
+        box-sizing: border-box;
     }
 
-    .header-show-mobile-only {
-        display: table-cell !important;
+    .grid-divider,
+    .small-grid-divider {
+        padding: 24px !important;
     }
 
-    .header-logo {
-        padding: 20px 0 0 !important;
+    .two-column-big-image-left img,
+    .two-column-small-image img {
+        width: 100% !important;
     }
 
-    .header-menu-container {
-        padding: 16px 0 !important;
+    .header-menu {
+        padding: 0 !important;
     }
 
     .headline-text {
@@ -320,30 +209,6 @@ img.image + div {
         padding-top: 25px !important;
     }
 
-    .tutorial-item-pull-left {
-        text-align: left !important;
-    }
-
-    .tutorial-item-image-left {
-        width: 60px !important;
-    }
-
-    .tutorial-item-image-left img {
-        width: 48px !important;
-    }
-
-    .tutorial-item-image img {
-        width: 60px !important;
-    }
-
-    .tutorial-items-mobile-wrapper {
-        padding: 4px 24px 40px !important;
-    }
-
-    .tutorial-item-mobile-wrapper-left {
-        padding-top: 28px !important;
-    }
-
     .email-layout {
         width: 100% !important;
     }
@@ -356,40 +221,6 @@ img.image + div {
     .service-messages {
         padding: 20px 10px 0 10px !important;
         box-sizing: border-box;
-    }
-}
-
-@media (min-width: 0) {
-    body {
-        margin: 0;
-        padding: 0;
-        -webkit-text-size-adjust: 100%;
-    }
-
-    .is-hidden {
-        display: none;
-    }
-
-    .is-hidden-desktop {
-        display: none;
-    }
-
-    .image-with-height {
-        max-width: 100%;
-    }
-
-    .cta-link {
-        -webkit-font-smoothing: antialiased;
-    }
-
-    a {
-        text-decoration: none;
-    }
-}
-
-@media (-webkit-min-device-pixel-ratio: 0) {
-    label {
-        cursor: pointer;
     }
 }
     </style>
@@ -442,11 +273,15 @@ img.image + div {
                                                         <table border="0" cellpadding="0" cellspacing="0" style="border:0;border-collapse:separate;border-spacing:0;margin:0;outline:0;padding:0" width="100%">
                                                             <tbody>
                                                                 <tr style="border:0;margin:0;outline:0;padding:0">
-                                                                    <td align="center" class="header-logo" style="border:0;font-size:0;line-height:0px;margin:0;outline:0;padding:24px 0 0"><a _label="HM LOGO" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea960cc3&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0" x-cq-linkchecker="skip"><img alt="H&M" src="https://domodo.co/sendy/uploads/1717965366.png" style="border: medium; margin: 0px; max-width: 700px; outline: 0px; padding: 0px; width: 222.975555px; height: 40.991848px;">
+                                                                    <td align="center" class="header-logo" style="border:0;font-size:0;line-height:0px;margin:0;outline:0;padding:24px 0 0">
+                                                                        <a href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea960cc3&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605">
+                                                                            <img alt="H&M" src="https://domodo.co/sendy/uploads/1717965366.png" style="border: medium; margin: 0px; max-width: 100%; outline: 0px; padding: 0px;">
+                                                                        </a>
+                                                                    </td>
                                                                             <!--[if !mso]>
                                                             <img class="is-hidden-desktop" src="https://s1-cdn.hm.com/global/assets/1.0.161/images/logo/header-hm-logo-light-red.png" alt="H&M" width="41" height="27" style="border:none;display:none;margin:0;max-height:0;max-width:700px;mso-hide:all;outline:0;overflow:hidden;padding:0"/>
                                                             <!--<![endif]-->
-                                                                        </a></td>
+                    
                                                                 </tr>
                                                                 <tr style="border:0;margin:0;outline:0;padding:0">
                                                                     <td align="center" class="header-menu-container" style="border:0;margin:0;outline:0;padding:20px 0" width="700px">
@@ -502,23 +337,16 @@ img.image + div {
                                                             <tbody>
                                                                 <tr>
                                                                     <td>
-																		<div style="width: 100%; max-width: 700px;">
-																			<img alt class="image-with-height" src="https://domodo.co/sendy/uploads/1717977204.png" style="border: medium; margin: 0px; max-width: 700px; outline: 0px; padding: 0px; width: 540px; height: 960px;">
-																		</div>
-																		
-                                                                        <!--<div style="border:0;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea9635ee&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt class="image-with-height" src="https://domodo.co/sendy/uploads/1717977204.png" style="border: medium; margin: 0px; max-width: 100%; outline: 0px; padding: 0px; height: auto;"></a></div>!-->
-                                                                        <!--[if !mso]>
-                                                        <div class="is-hidden-desktop" style="border:0;display:none;margin:0;max-height:0;mso-hide:all;outline:0;overflow:hidden;padding:0">
-                                                            <a href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea9635ef&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" _label="MOBILE IMAGE" style="border:0;font-weight:400;margin:0;outline:0;padding:0">
-                                                                <img src="https://lpe.hm.com/hmoces?set=locale%5Ben_us%5D&set=productName%5BSmocked-bodice%20Dress%5D&set=price%5B$14.99%5D&set=redPrice%5B%5D&set=yellowPrice%5B%5D&set=yellowPriceText%5BMember%20price%5D&set=textSize%5Bsmall%5D&set=imageUrl%5Bhttps://aemcomm.hm.com/cms/url/v1/b64/783dafbaaHR0cHM6Ly9scDIuaG0uY29tL2htZ29lcHByb2Q_c2V0PXJlcyU1QmwlNUQlMkNxdWFsaXR5JTVCNzklNUQlMkNzb3VyY2UlNUIlMkYyOSUyRmUxJTJGMjllMTQzMjI1NzUwZDA5MjI3ODA0ZmE0OTI2ZTcwMDdhYTFlMjJmZC5qcGclNUQlMkNvcmlnaW4lNUJkYW0lNUQlMkNjYXRlZ29yeSU1QiU1RCUyQ3R5cGUlNUJMT09LQk9PSyU1RCUyQ2htdmVyJTVCMSU1RCUyNmNhbGwlM0R1cmwlNUJmaWxlJTNBJTJGcHJvZHVjdCUyRm1haW4lNUQ%5D&set=width%5B650%5D&call=url%5Bhttps://s1-cdn.hm.com/global/image-chains/1.1.482/fixed-price-image/fixed-price-image-mobile.chain%5D&auth=hash%5Bf9024b75%5D" alt class="image image-mobile" style="border:none;display:block;height:auto;margin:0;max-width:700px;outline:0;padding:0"/>
-                                                            </a>
-                                                        </div>
-                                                        <!--<![endif]-->
+                                                                        <div style="width: 100%; max-width: 700px;">
+                                                                            <img alt class="image-with-height" src="https://domodo.co/sendy/uploads/1717977204.png" style="border: medium; margin: 0px; max-width: 100%; outline: 0px; padding: 0px;">
+
+                                                                        </div>
                                                                     </td>
                                                                 </tr>
                                                             </tbody>
                                                         </table>
                                                     </td>
+                                                    
                                                 </tr>
                                                 <tr style="border:0;margin:0;outline:0;padding:0">
                                                     <td class="story-text-block-wrapper" style="border:0;margin:0;outline:0;padding:26px 0 29px">
@@ -558,7 +386,14 @@ img.image + div {
                                                 </tr>
                                                 <tr style="border:0;margin:0;outline:0;padding:0">
                                                     <td style="border:0;margin:0;outline:0;padding:0">
-                                                        <div class="is-hidden-mobile cta-links-container" style="border:0;font-size:0;margin:0;outline:0;padding:0 24px;text-align:center"><span class="cta-link-wrapper" style="border:0;display:inline-block;margin:0;outline:0;padding:0"><img alt height="41" src="https://s1-cdn.hm.com/global/assets/1.0.161/images/spacer.gif" style="border:0;margin:0;max-width:700px;outline:0;padding:0" width="6"><a class="cta-link text-bold" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea9635f0&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="-webkit-font-smoothing:antialiased;border:1px solid #222222;border-color:#222222;color:#222222;display:inline-block;font-family:HMSans,Arial,sans-serif;font-size:16px;font-weight:700;line-height:20px;margin:0;outline:0;padding:12px;text-align:center;text-decoration:none" x-cq-linkchecker="skip">Join&nbsp;for&nbsp;free</a><img alt height="41" src="https://s1-cdn.hm.com/global/assets/1.0.161/images/spacer.gif" style="border:0;margin:0;max-width:700px;outline:0;padding:0" width="6"></span><span class="cta-link-wrapper" style="border:0;display:inline-block;margin:0;outline:0;padding:0"><img alt height="41" src="https://s1-cdn.hm.com/global/assets/1.0.161/images/spacer.gif" style="border:0;margin:0;max-width:700px;outline:0;padding:0" width="6"><a class="cta-link text-bold" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea9635f1&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="-webkit-font-smoothing:antialiased;border:1px solid #222222;border-color:#222222;color:#222222;display:inline-block;font-family:HMSans,Arial,sans-serif;font-size:16px;font-weight:700;line-height:20px;margin:0;outline:0;padding:12px;text-align:center;text-decoration:none" x-cq-linkchecker="skip">Women</a><img alt height="41" src="https://s1-cdn.hm.com/global/assets/1.0.161/images/spacer.gif" style="border:0;margin:0;max-width:700px;outline:0;padding:0" width="6"></span><span class="cta-link-wrapper" style="border:0;display:inline-block;margin:0;outline:0;padding:0"><img alt height="41" src="https://s1-cdn.hm.com/global/assets/1.0.161/images/spacer.gif" style="border:0;margin:0;max-width:700px;outline:0;padding:0" width="6"><a class="cta-link text-bold" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea9635f2&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="-webkit-font-smoothing:antialiased;border:1px solid #222222;border-color:#222222;color:#222222;display:inline-block;font-family:HMSans,Arial,sans-serif;font-size:16px;font-weight:700;line-height:20px;margin:0;outline:0;padding:12px;text-align:center;text-decoration:none" x-cq-linkchecker="skip">Men</a><img alt height="41" src="https://s1-cdn.hm.com/global/assets/1.0.161/images/spacer.gif" style="border:0;margin:0;max-width:700px;outline:0;padding:0" width="6"></span><span class="cta-link-wrapper" style="border:0;display:inline-block;margin:0;outline:0;padding:0"><img alt height="41" src="https://s1-cdn.hm.com/global/assets/1.0.161/images/spacer.gif" style="border:0;margin:0;max-width:700px;outline:0;padding:0" width="6"><a class="cta-link text-bold" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea9635f3&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="-webkit-font-smoothing:antialiased;border:1px solid #222222;border-color:#222222;color:#222222;display:inline-block;font-family:HMSans,Arial,sans-serif;font-size:16px;font-weight:700;line-height:20px;margin:0;outline:0;padding:12px;text-align:center;text-decoration:none" x-cq-linkchecker="skip">Baby</a><img alt height="41" src="https://s1-cdn.hm.com/global/assets/1.0.161/images/spacer.gif" style="border:0;margin:0;max-width:700px;outline:0;padding:0" width="6"></span><span class="cta-link-wrapper" style="border:0;display:inline-block;margin:0;outline:0;padding:0"><img alt height="41" src="https://s1-cdn.hm.com/global/assets/1.0.161/images/spacer.gif" style="border:0;margin:0;max-width:700px;outline:0;padding:0" width="6"><a class="cta-link text-bold" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea9635f4&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="-webkit-font-smoothing:antialiased;border:1px solid #222222;border-color:#222222;color:#222222;display:inline-block;font-family:HMSans,Arial,sans-serif;font-size:16px;font-weight:700;line-height:20px;margin:0;outline:0;padding:12px;text-align:center;text-decoration:none" x-cq-linkchecker="skip">Kids</a><img alt height="41" src="https://s1-cdn.hm.com/global/assets/1.0.161/images/spacer.gif" style="border:0;margin:0;max-width:700px;outline:0;padding:0" width="6"></span><span class="cta-link-wrapper" style="border:0;display:inline-block;margin:0;outline:0;padding:0"><img alt height="41" src="https://s1-cdn.hm.com/global/assets/1.0.161/images/spacer.gif" style="border:0;margin:0;max-width:700px;outline:0;padding:0" width="6"><a class="cta-link text-bold" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea9635f5&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="-webkit-font-smoothing:antialiased;border:1px solid #222222;border-color:#222222;color:#222222;display:inline-block;font-family:HMSans,Arial,sans-serif;font-size:16px;font-weight:700;line-height:20px;margin:0;outline:0;padding:12px;text-align:center;text-decoration:none" x-cq-linkchecker="skip">H&M&nbsp;HOME</a><img alt height="41" src="https://s1-cdn.hm.com/global/assets/1.0.161/images/spacer.gif" style="border:0;margin:0;max-width:700px;outline:0;padding:0" width="6"></span></div>
+                                                        <div class="is-hidden-mobile cta-links-container" style="border:0;font-size:0;margin:0;outline:0;padding:0 24px;text-align:center">
+                                                            <span class="cta-link-wrapper" style="border:0;display:inline-block;margin:0;outline:0;padding:0">
+                                                                <img alt height="41" src="https://s1-cdn.hm.com/global/assets/1.0.161/images/spacer.gif" style="border:0;margin:0;max-width:100%;outline:0;padding:0">
+                                                                <a class="cta-link text-bold" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea9635f0&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="-webkit-font-smoothing:antialiased;border:1px solid #222222;border-color:#222222;color:#222222;display:inline-block;font-family:HMSans,Arial,sans-serif;font-size:16px;font-weight:700;line-height:20px;margin:0;outline:0;padding:12px;text-align:center;text-decoration:none" x-cq-linkchecker="skip">Join&nbsp;for&nbsp;free</a>
+                                                                <img alt height="41" src="https://s1-cdn.hm.com/global/assets/1.0.161/images/spacer.gif" style="border:0;margin:0;max-width:100%;outline:0;padding:0">
+                                                            </span>
+                                                            <!-- Additional CTA links... -->
+                                                        </div>
                                                         <!--[if !mso]>
                                             <div class="is-hidden-desktop" style="border:0;display:none;margin:0;max-height:0;mso-hide:all;outline:0;overflow:hidden;padding:0">
                                                 <table style="border:0;border-collapse:separate;border-spacing:0;margin:0;outline:0;padding:0" border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -626,7 +461,8 @@ img.image + div {
                                                             <tbody>
                                                                 <tr style="border:0;margin:0;outline:0;padding:0">
                                                                     <td class="two-column-big-image-left two-column-spacer" style="border:0;font-size:0;line-height:0;margin:0;outline:0;padding:0" width="350px">
-                                                                        <div style="border:0;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea9635fc&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt class="image" src="https://domodo.co/sendy/uploads/1717961716.png" style="border: medium; margin: 0px; max-width: 700px; outline: 0px; padding: 0px; width: 350px; height: 525px;"></a></div>
+                                                                        <div style="border:0;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea9635fc&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt class="image" src="https://domodo.co/sendy/uploads/1717961716.png" style="border: medium; margin: 0px; max-width: 100%; outline: 0px; padding: 0px;">
+                                                                        </a></div>
                                                                         <!--[if !mso]>
                                                         <div class="is-hidden-desktop" style="border:0;display:none;margin:0;max-height:0;mso-hide:all;outline:0;overflow:hidden;padding:0">
                                                             <a href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea9635fd&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" _label="MOBILE IMAGE" style="border:0;font-weight:400;margin:0;outline:0;padding:0">
@@ -640,7 +476,8 @@ img.image + div {
                                                                             <tbody>
                                                                                 <tr style="border:0;margin:0;outline:0;padding:0">
                                                                                     <td class="two-column-spacer" style="border:0;font-size:0;line-height:0;margin:0;outline:0;padding:0">
-                                                                                        <div style="border:0;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea9635fe&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt class="image" src="https://domodo.co/sendy/uploads/1717962282.png" style="border: medium; margin: 0px; max-width: 700px; outline: 0px; padding: 0px; width: 201px; height: 310px;"></a></div>
+                                                                                        <div style="border:0;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea9635fe&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt class="image" src="https://domodo.co/sendy/uploads/1717962282.png" style="border: medium; margin: 0px; max-width: 100%; outline: 0px; padding: 0px;">
+                                                                                        </a></div>
                                                                                         <!--[if !mso]>
                                                                     <div class="is-hidden-desktop" style="border:0;display:none;margin:0;max-height:0;mso-hide:all;outline:0;overflow:hidden;padding:0">
                                                                         <a href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea9635ff&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" _label="MOBILE IMAGE" style="border:0;font-weight:400;margin:0;outline:0;padding:0">
@@ -689,7 +526,8 @@ img.image + div {
                                                                             <tbody>
                                                                                 <tr style="border:0;margin:0;outline:0;padding:0">
                                                                                     <td class="two-column-spacer" style="border:0;font-size:0;line-height:0;margin:0;outline:0;padding:0">
-                                                                                        <div style="border:0;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963602&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt class="image" src="https://domodo.co/sendy/uploads/1717965059.png" style="border: medium; margin: 0px; max-width: 700px; outline: 0px; padding: 0px; width: 207px; height: 310px;""></a></div>
+                                                                                        <div style="border:0;margin:0;outline:0;padding:0"><a _label="DESKTOP IMAGE" href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963602&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" style="border:0;font-weight:400;margin:0;outline:0;padding:0"><img alt class="image" src="https://domodo.co/sendy/uploads/1717965059.png" style="border: medium; margin: 0px; max-width: 100%; outline: 0px; padding: 0px;">
+                                                                                        </a></div>
                                                                                         <!--[if !mso]>
                                                                     <div class="is-hidden-desktop" style="border:0;display:none;margin:0;max-height:0;mso-hide:all;outline:0;overflow:hidden;padding:0">
                                                                         <a href="http://t.email.hm.com/r/?id=hd99ed991,bd80152d,ea963603&did=-1115679443&rid=1014704913&erid=MTAxNDcwNDkxMw%3D%3D&p1=DM2190199&p2=b5013988cc9a3ef348ea50998e05c1a2&p3=20240605" _label="MOBILE IMAGE" style="border:0;font-weight:400;margin:0;outline:0;padding:0">
